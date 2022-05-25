@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Yellowtail&display=swap');
+
+.App {
+  /* background-color: #000000; */
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+button {
+  font-size: calc(10px + 2vmin);
+}
+
+.cs-square { 
+  clip-path: polygon(10% 10%, 90% 10%, 90% 90%, 9% 89%); 
+  background-color: #296ee4; 
+  width: 200; 
+  height: 200px; 
+}
+
+.Box {
+  margin: 40px;
+  border: 5px black;
+  /* background-color: #296ee4; 
+  width: 200; 
+  height: 200px;  */
+}
+
+.Box_content {
+  font-size: 27px;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.Title_thing {
+  font-size: 32px;
+  text-align: center;
+  font-family: 'Yellowtail', cursive;
+  color: rgb(156, 214, 236);
+}
+
+.rcorners1 {
+  border-radius: 10px;
+  background: rgb(250, 85, 93);
+  opacity: 0.85;
+  padding: 20px; 
+  width: 85px;
+  height: 85px; 
+}
+
+.rcorners2 {
+  border-radius: 10px;
+  background: rgb(156, 214, 236);
+  opacity: 0.85;
+  padding: 20px; 
+  width: 85px;
+  height: 85px; 
+}
