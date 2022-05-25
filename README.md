@@ -3,6 +3,9 @@ This is a bingo app created with React.js and Go in 2-3 days. I created this to 
 
 ![reactiveBingoGif](https://user-images.githubusercontent.com/84472737/170234746-f164d89e-cb76-4bca-9a2c-b6c626fd0481.gif)
 
+## Start
+All frontend React stuff is stored the `client` folder and the Go backend part is stored in `server`. 
+To start the project just just go `~/ReactiveBingo/server` and run `go run main.go` so you will start the Fiber app. Then go to `~/ReactiveBingo/client` and run `yarn dev`. If done right, the app will be availiable on **localhost:3000**
 
 ## Contact
 I'm currently working on myself and looking for a job as a Go developer;) I also write apps for iOS with Swift and SwiftUI. If you have a question or offer please email me: danyakurach@gmail.com
